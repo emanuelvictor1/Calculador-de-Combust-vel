@@ -1,0 +1,92 @@
+body {
+  background-color: #87CEFA;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font: 25pt Arial;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inform-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 400px;
+  height: 195px;
+  margin: auto;
+}
+input {
+  text-align: center;
+  margin-left: 105px;
+  border-radius: 7px;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 3px;
+}
+button {
+  width: 180px;
+  text-align: center;
+  margin-left: 105px; 
+  border-radius: 7px;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 3px;
+}
+.mostrar-section {
+  display: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 400px;
+  height: 180px;
+  margin-top: 6px;
+  margin: auto;
+}
+.div-container-mostrar {
+  text-align: center;
+}
+
+@media  (max-width: 414px) {
+  .inform-section {
+    width: 310px;
+  }
+  input {
+    margin-left: 65px;
+    padding: 5px;
+  }
+  button {
+    margin-left: 65px;
+    padding: 5px;
+  }
+  .div-container-mostrar {
+   max-width: 320px;
+  }
+  .p1 {
+    text-align: center;
+  }
+}
+
+@media  (max-width: 393px) {
+  .inform-section {
+    width: 300px;
+  }
+  input {
+    margin-left: 65px;
+    padding: 5px;
+  }
+  button {
+    margin-left: 65px;
+    padding: 5px;
+  }
+  .div-container-mostrar {
+    max-width: 320px;
+  }
+  .p1 {
+    text-align: center;
+  }
+}
+
